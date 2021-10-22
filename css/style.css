@@ -382,7 +382,7 @@ a:focus {
 
 .carousel .carousel-text h1 {
     color: #ffffff;
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 700;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -391,7 +391,7 @@ a:focus {
 .carousel .carousel-text p {
     max-width: 500px;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 40px;
 }
 
@@ -695,6 +695,7 @@ a:focus {
     width: 100%;
     border-radius: 5px;
     margin-bottom: 30px;
+    height: 100%;
 }
 
 .about .about-content {
@@ -907,9 +908,15 @@ margin-top: 5%;
     text-align: center;
     margin: 15px;
 }
+
+.bookform input {
+    margin-top: 20px;
+}
   
 .bookform button {
-    margin-top: 5px;
+    margin: 10px 0px;
+    padding: 10px;
+    font-weight: bolder;
 }
 
 .form-control {
